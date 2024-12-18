@@ -30,7 +30,7 @@ public class Main {
 
     //4
     public static String stringReverse(String input) {
-        if (input != null || !input.isEmpty()) {
+        if (input != null && !input.isEmpty()) {
             StringBuilder reversed = new StringBuilder(input);
             return reversed.reverse().toString();
         }
